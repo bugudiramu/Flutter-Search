@@ -1,16 +1,12 @@
-# json_api
+# Flutter Search
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Here I have Implemented two kinds of searches in Flutter.
+### 1.By placing a text field above the listview (The data in the listview is returned from jsonplaceholder api).
+### 2.By placing a icon in the Appbar by using SearchDelegate() class which is MaterialSearch.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+If you want to see the difference switch between the DemoSearch() and HomePage() classes.
+I have implemented this because there are only few resources to implement search.(Since they are using dymmy data in their app so I thought this could help some people).
